@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+:root {
+  --Pale-blue: hsl(225, 100%, 94%);
+  --Bright-blue: hsl(245, 75%, 52%);
+  --Very-pale-blue: hsl(225, 100%, 98%);
+  --Desaturated-blue: hsl(224, 23%, 55%);
+  --Dark-blue: hsl(223, 47%, 23%);
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-family: "Red Hat Display";
+}
+
+.image {
+  background-image: url(./images/illustration-hero.svg);
+  width: 450px;
+  height: 220px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-text {
+  background-color: white;
+  border-radius: 0px 0px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px 39px;
+  gap: 45px;
+}
+
+.card-text-annual {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 19px;
+}
+
+.card-text-order-summary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 21px;
+}
+
+.card-text-middle-part {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  gap: 93px;
+  background-color: var(--Very-pale-blue);
+  border-radius: 10px;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29px;
+  margin: 0px auto;
+  color: var(--Dark-blue);
+}
+
+p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 156%;
+  text-align: center;
+  margin: 0px auto;
+  color: var(--Desaturated-blue);
+}
+
+h2 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 156%;
+  text-align: center;
+  color: var(--Dark-blue);
+}
+
+.price {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 156%;
+  text-align: center;
+  color: var(--Desaturated-blue);
+}
+
+.change {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--Bright-blue);
+}
+
+.btn {
+  width: 354px;
+  height: 51px;
+  background: var(--Bright-blue);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--Very-pale-blue);
+}
+
+.cancel-order {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;  
+  line-height: 21px;
+  text-align: center;
+  color: var(--Desaturated-blue);
+}
+
+.cancel-order:hover {
+  color: var(--Dark-blue);
+}
+
+.btn:hover {
+  background: var(--Desaturated-blue);
+  color: var(--Very-pale-blue);
+  
+}
+
+.change:hover {
+  color: var(--Desaturated-blue);
+}
+
+
+a {
+  text-decoration: none;
+
+}
